@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 600px) {
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -69,15 +69,21 @@
     margin-right: auto;
     width: 90%;
     }
+    
+    .topnav a.icon {
+    float: right;
+    display: block;
+  }        
+   
             
 </style>  
           </head>
   <body>
-          <div class="topnav" id="myTopnav">
+            <div class="topnav" id="myTopnav">
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="img/logo.png" heigh=24px width=24px></a>    
           <a href="./index.html">Home</a>
           <a href="./projects.html">Projects</a>
-          <a href="./resume.html" class="active">Resume</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          <a href="./resume.html"class="active">Resume</a>
           </div>
 
 
